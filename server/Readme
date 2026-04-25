@@ -1,0 +1,42 @@
+# Job Board Backend API
+
+REST API for Job Board built with Node.js, Express, MongoDB.
+
+## 🚀 API Endpoints
+
+| Method | Endpoint | Description |
+| --- | --- | --- |
+| GET | `/api/jobs` | Get all jobs |
+| POST | `/api/jobs` | Create new job |
+| GET | `/api/jobs/:id` | Get single job |
+| DELETE | `/api/jobs/:id` | Delete job |
+
+## 🛠️ Tech Stack
+
+- **Node.js** - Runtime
+- **Express** - Web framework  
+- **MongoDB** - Database
+- **Mongoose** - ODM
+- **Cors** - Cross-origin requests
+
+## 📋 Setup
+
+1. Install dependencies: `npm install`
+2. Add MongoDB URI to `.env` file
+3. Run server: `npm start` or `npm run dev`
+4. API runs on `http://localhost:5000`
+
+## 📝 Job Object Format
+
+```json
+{
+  "title": "Frontend Developer",
+  "company": "TechStart",
+  "location": "Bangalore, India",
+  "type": "Full-time",
+  "salary": "8-12 LPA",
+  "description": "Build amazing UIs with React",
+  "requirements": "2+ years React experience",
+  "postedBy": "admin@techstart.com"
+}
+made bu #Vaishali
